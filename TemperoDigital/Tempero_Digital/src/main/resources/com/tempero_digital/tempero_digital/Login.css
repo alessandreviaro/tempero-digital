@@ -1,0 +1,7 @@
+.fechar{
+    -fxbackground-color: transparent;
+    -fx-cursor:hand;
+}
+.fechar-btn:hover{
+    -fxbackground-color: #ff0000;
+}

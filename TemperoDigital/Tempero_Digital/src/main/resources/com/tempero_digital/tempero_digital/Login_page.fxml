@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.tempero_digital.tempero_digital.LoginController">
+   <children>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <AnchorPane fx:id="painel_dir" prefHeight="400.0" prefWidth="294.0" />
+            <AnchorPane fx:id="painel_esq" layoutX="309.0" prefHeight="400.0" prefWidth="284.0">
+               <children>
+                  <TextField fx:id="Login" layoutX="57.0" layoutY="174.0" promptText="Login" />
+                  <PasswordField fx:id="Senha" layoutX="57.0" layoutY="226.0" promptText="Senha" />
+                  <Button fx:id="Logar" layoutX="106.0" layoutY="284.0" mnemonicParsing="false" text="Logar" />
+                  <Button fx:id="fechar" layoutX="239.0" layoutY="2.0" minWidth="47.0" mnemonicParsing="false" onAction="#fechar" prefHeight="30.0" prefWidth="54.0" stylesheets="@Login.css" text="X">
+                     <styleClass>
+                        <String fx:value="fechar" />
+                        <String fx:value="fechar-btn" />
+                     </styleClass></Button>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>
